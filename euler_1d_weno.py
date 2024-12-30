@@ -29,12 +29,18 @@ def init_cond(X_min,X_max,N,init):
     #set the initial condition
     x0=0.0
     if init == "SOD":
-        rho1 = 0.125
+        # rho1 = 0.125
+        # U1 = 0
+        # P1 = 0.1
+        # rho4 = 1.0
+        # U4 = 0
+        # P4 = 1
+        rho1 = 1.0
         U1 = 0
-        P1 = 0.1
-        rho4 = 1.0
+        P1 = 1
+        rho4 = 0.125
         U4 = 0
-        P4 = 1
+        P4 = 0.1
     elif init == "LAX":
         rho1 = 0.445
         U1 = 0.698

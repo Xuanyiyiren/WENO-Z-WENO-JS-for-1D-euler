@@ -47,6 +47,7 @@ if init=="blastwave":
     X_min,X_max = 0.00,1.00
 else : 
     X_min,X_max = -5.00,5.00
+    # X_min,X_max = -1.00,1.00
 
 #initialize flux
 q_init,X,dx,P_51 = init_cond(X_min,X_max,Nx,init)
