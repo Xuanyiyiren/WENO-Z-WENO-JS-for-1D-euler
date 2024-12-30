@@ -10,7 +10,7 @@ import math
 Run_Mode_Options = ['WENO-JS','WENO-Z']
 runMode     = Run_Mode_Options[1]
 Initial_Condition = ['SOD', 'LAX', '123', 'Shockdensity', 'blastwave']
-init = Initial_Condition[1]
+init = Initial_Condition[0]
 BC_Options = ['Non-Reflecting','Neumann','Wall','Force-Free']
 left_bc  = BC_Options[0]; right_bc = BC_Options[0]
 Adv_Options = ['WENO','LINEAR-FD']
